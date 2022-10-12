@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples</title>
+    <link rel="stylesheet" href="style01.css".css">
+</head>
+<body onload="carregar()">
+    <header>
+        <h1>Questão 02 (Insira os valores para calcular)</h1>
+    </header>
+
+    <section>
+        <div id="'dados">
+            <p>Valor 1: <input type="number" name="inicio" id="txt1"></p>
+            <p>Valor 2: <input type="number" name="fim" id="txt2"></p>
+            <select id="operacao">
+                <option value="soma">soma (+)</option>
+                <option value="subtracao">subtração (-)</option>
+                <option value="multipicacao">multiplicação (*)</option>
+                <option value="divisao">divisão (n/n)</option>
+            </select>
+            <p> <input type="button" value="contar" onclick="calcular()"></p>
+        </div>
+        <div id="res">
+            Resultado:
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <a href="02_Mapa_de_array.html">Questão 03</a>
+            <a href="03_Manipulação_de_array.html">Questão 04</a>
+            <a href="04_Função_filter.html">Questão 05</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Victor Franke</p>
+    </footer>
+    <script src="script01.js"></script>
+</body>
+</html>
